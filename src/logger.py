@@ -3,7 +3,6 @@ import os
 from datetime import datetime
 import sys
 
-from src.exception import customeexception
 
 LOG_FILE = f"{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
 logs_path = os.path.join(os.path.dirname(__file__), 'app.log')
